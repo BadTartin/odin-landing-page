@@ -1,5 +1,8 @@
 /* styles.css */
 
+* { border: 2px solid red; }
+
+
 header { 
     background-color: #1F2937;
     font-size: 24px;
@@ -12,10 +15,27 @@ ul {
     display: flex;
     list-style: none;
     gap: 4px;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.topbox {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.headline {
+    font-size: 48px;
+
+}
+
+.headerlogo {
+    margin: 0;
 }
