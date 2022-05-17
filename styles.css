@@ -65,7 +65,11 @@ img {
 
 .headline {
     font-size: 48px;
+    margin: 0;
+}
 
+.subheader {
+    margin: 0;
 }
 
 .headerlogo {
