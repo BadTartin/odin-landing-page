@@ -92,6 +92,7 @@ img {
     align-items: flex-end;
     width: 920px;
     margin: 64px;
+
 }
 
 .quote {
@@ -105,4 +106,24 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* margin: auto; */
+    margin-top: 64px;  
+    margin-bottom: 64px; 
+}
+
+.CTAbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+}
+
+
+.CTAtext {
+    padding: 16px;
+    color: #E5E7EB;
+}
+
+button {
+    margin: 16px;
 }
