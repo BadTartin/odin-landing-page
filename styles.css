@@ -90,7 +90,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
     width: 920px;
     margin: 64px;
 }
@@ -100,4 +99,10 @@ img {
     font-weight: light;
     font-size: 36px;
     color: #1F2937;
+}
+
+.footerbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
