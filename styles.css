@@ -1,6 +1,6 @@
 /* styles.css */
 
-* { border: 1px solid red; }
+/* * { border: 1px solid red; } */
 
 
 header { 
@@ -116,6 +116,7 @@ img {
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
+    border-radius: 5px;
 }
 
 
@@ -126,4 +127,7 @@ img {
 
 button {
     margin: 16px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 5px;
 }
