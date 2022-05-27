@@ -80,9 +80,24 @@ img {
     /* width: 920px; */
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin: auto;
+    align-items: center;
+    /* margin: auto; */
     background-color: #E5E7EB;
     width: 100%;
 }
 
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    width: 920px;
+    margin: 64px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+    color: #1F2937;
+}
