@@ -20,7 +20,7 @@ body {
 ul {
     display: flex;
     list-style: none;
-    gap: 4px;
+    gap: 16px;
     margin: 0;
 }
 
@@ -60,16 +60,31 @@ img {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
+    justify-content: center;
+}
+
+.topgroup {
+    display: flex;
+    width: 80%;
     justify-content: space-around;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.leftbox {
+    width: 50%;
 }
 
 .headline {
     font-size: 48px;
     margin: 0;
+    color: #F9FAF8;
 }
 
 .subheader {
     margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .headerlogo {
@@ -117,17 +132,32 @@ img {
     justify-content: center;
     background-color: #3882F6;
     border-radius: 5px;
+    gap: 64px;
+    /* padding-left: 64px;
+    padding-right: 64px; */
+    width: 80%;
 }
 
 
 .CTAtext {
-    padding: 16px;
+    padding: 32px;
     color: #E5E7EB;
+    font-size: 18px;
+}
+
+.CTAbox button {
+    margin: 16px;
+    border-color: #E5E7EB;
+}
+
+.leftbox button {
+    margin-top: 8px;
 }
 
 button {
-    margin: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
     color: #E5E7EB;
     background-color: #3882F6;
-    border-radius: 5px;
 }
